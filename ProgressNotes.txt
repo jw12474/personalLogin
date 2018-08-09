@@ -1,0 +1,7 @@
+This logs into my.georgiasouthern.edu 
+will figure out how to update into getting to clock in page for when logging in with work account (or checkbox option for clock in)
+needs to be installed onto programfiles
+need to figure out how to silently install to the programfiles
+need to figure out how to make a shortcut 
+need to figure out how to make a startmenu shortcut
+need to figure out how to erase text put into usernameAndPassword file couldn't do it through powershell because it stops the browser from loading
