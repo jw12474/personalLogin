@@ -30,7 +30,7 @@ $form.Controls.Add($groupBoxUSRName)
         $RadioButtonUSR1.Location = '0,0'
         $RadioButtonUSR1.size = '200,20'
         $RadioButtonUSR1.Font = 'Segoe UI, 8'
-        $RadioButtonUSR1.Text = "User: Jeffery-walls"
+        $RadioButtonUSR1.Text = "User: name1"
         $RadioButtonUSR1.Checked = $true
         $groupBoxUSRName.Controls.Add($RadioButtonUSR1)
 
@@ -39,17 +39,12 @@ $form.Controls.Add($groupBoxUSRName)
         $RadioButtonUSR2.Location = '0,20'
         $RadioButtonUSR2.size = '200,20'
         $RadioButtonUSR2.Font = 'Segoe UI, 8'
-        $RadioButtonUSR2.Text = "User: jw12474"
+        $RadioButtonUSR2.Text = "User: name2"
         $groupBoxUSRName.Controls.Add($RadioButtonUSR2)
 
 
 
-#####label0
-$label0 = New-Object System.Windows.Forms.Label
-$label0.Location = '475,20'
-$label0.Text = 'Did You Clock in already'
-$label0.AutoSize = $True
-$form.Controls.Add($label0)
+
 ####Browser radio button
 $groupBoxBrowser = New-Object System.Windows.Forms.GroupBox
 $groupBoxBrowser.Location = '450,50'
